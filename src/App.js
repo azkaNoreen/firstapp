@@ -3,6 +3,7 @@ import './App.css';
 import Navbar from './Components/Navbar';
 import Addcoin from './Components/Addcoin';
 import VoteCoin from './Components/VoteCoin';
+import SearchVote from './Components/SearchVote';
 import { createRoot } from "react-dom/client";
 import {
   BrowserRouter as Router,
@@ -26,7 +27,10 @@ function App() {
     </div>
           </Route> */}
           <Route path='/' element={<Addcoin/>} />
+          <Route path='/addcoin' element={<Addcoin/>} />
           <Route path='/votecoin' element={<VoteCoin/>} />
+          <Route path='/searchcoin' element={<SearchVote/>} />
+
         </Routes>
         </div>
 

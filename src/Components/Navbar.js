@@ -8,9 +8,9 @@ export default function Navbar(props) {
     <Link  to="/">VoteToken</Link>
 
   <Link className="active" to="/">Home</Link>
-  <Link to="/">Add Coin</Link>
+  <Link to="/addcoin">Add Coin</Link>
   <Link to="/votecoin">Vote Coin</Link>
-  <a href="/">Search Coin</a>
+  <Link to="/searchcoin">Search Coin</Link>
   <div className="topnav-right">
     <a href="/">Log In</a>
     <a href="/">Sign Up</a>
