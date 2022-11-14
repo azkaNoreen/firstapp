@@ -79,3 +79,7 @@ background-color: rgb(68, 68, 68);
 .topnav-right {
 float: right;
 }
+.btnStyle {
+  background-color: rgba(255, 179, 0, 0.883);
+  color: rgb(0, 0, 0);
+}

@@ -1,15 +1,17 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
 export default function Navbar(props) {
   return (
     <>
     <nav>
-    <div class="topnav">
-  <a class="active" href="#home">VoteToken</a>
-  <a href="/">Add Coin</a>
-  <a href="/">Vote Coin</a>
+    <div className="topnav">
+    <Link  to="/">VoteToken</Link>
+
+  <Link className="active" to="/">Home</Link>
+  <Link to="/">Add Coin</Link>
+  <Link to="/votecoin">Vote Coin</Link>
   <a href="/">Search Coin</a>
-  <div class="topnav-right">
+  <div className="topnav-right">
     <a href="/">Log In</a>
     <a href="/">Sign Up</a>
   </div>
